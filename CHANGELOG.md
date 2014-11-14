@@ -1,6 +1,9 @@
 ## Master
 
 * Remove [pry-debugger][pry-debugger] to let people explicitly pick their debugging tool of choice.
+* Use [pry-byebug][pry-byebug] instead of [pry-debugger][pry-debugger]
+* Use [pry-coolline][pry-coolline] instead of [coolline][coolline]
+* Remove [pry-git][pry-git] and [pry-doc][pry-doc]
 
 ## 0.5.2 (2013-10-24)
 
@@ -119,7 +122,9 @@
 [pry-git]:            https://github.com/pry/pry-git
 [pry-nav]:            https://github.com/nixme/pry-nav
 [pry-remote]:         https://github.com/Mon-Ouie/pry-remote
+[pry-byebug]:         https://github.com/deivid-rodriguez/pry-byebug
 [coolline]:           https://github.com/Mon-Ouie/coolline
+[pry-coolline]:       https://github.com/pry/pry-coolline
 [coderay]:            https://github.com/rubychan/coderay
 [hirb]:               https://github.com/cldwalker/hirb
 [pry-stack_explorer]: https://github.com/pry/pry-stack_explorer
