@@ -16,19 +16,23 @@ hard-working hands!
 * [**Pry Git**][pry-git] to teach the console about git. Diffs, blames, and
   commits on methods and classes, not just files.
 * [**Pry Remote**][pry-remote] to connect remotely to a Pry console.
+* [**Pry Byebug**][pry-byebug] to turn the console into a simple debugger.
 * [**Pry Stack Explorer**][pry-stack_explorer] to navigate the call stack and
   frames.
 * [**Coolline**][coolline] and [**Coderay**][coderay] for syntax highlighting as
   you type. _Optional. MRI 1.9.3/2.0.0 only_
 
+## Dependencies
+
+Ruby 2.0.0+, Rails 3 or 4.
 
 ## Usage
 
-Ruby 1.9.2+, Rails 3 or 4 only. Add to your project Gemfile:
+Add the following to your project's Gemfile:
 
 ```ruby
 group :development, :test do
-  gem 'jazz_hands'
+   gem 'jazz_hands', github: 'netguru/jazz_hands'
 end
 ```
 
@@ -73,7 +77,7 @@ mixed encodings.
 Syntax highlighting as you type via [Coolline][coolline] and [Coderay][coderay]
 is disabled by default due to slightly buggy behavior. To enable, add
 `JazzHands.enable_syntax_highlighting_as_you_type!` to the initializer. Only
-works with MRI 1.9.3 or 2.0.0.
+works with MRI 2.0.0.
 
 
 ## Contributing
@@ -89,6 +93,7 @@ file an [issue][issues]. [Project changelog][changelog].
 [pry-doc]:            https://github.com/pry/pry-doc
 [pry-git]:            https://github.com/pry/pry-git
 [pry-remote]:         https://github.com/Mon-Ouie/pry-remote
+[pry-byebug]:         https://github.com/deivid-rodriguez/pry-byebug
 [pry-stack_explorer]: https://github.com/pry/pry-stack_explorer
 [coolline]:           https://github.com/Mon-Ouie/coolline
 [coderay]:            https://github.com/rubychan/coderay
