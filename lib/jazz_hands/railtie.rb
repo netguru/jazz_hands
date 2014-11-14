@@ -1,7 +1,5 @@
 require 'pry'
 require 'pry-rails'
-require 'pry-doc'
-require 'pry-git'
 require 'pry-remote'
 require 'pry-stack_explorer'
 require 'awesome_print'

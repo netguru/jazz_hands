@@ -11,15 +11,11 @@ hard-working hands!
 * [**Hirb**][hirb] for tabular collection output.
 * [**Pry Rails**][pry-rails] for additional commands (`show-routes`,
   `show-models`, `show-middleware`) in the Rails console.
-* [**Pry Doc**][pry-doc] to browse Ruby source, including C, directly from the
-  console.
-* [**Pry Git**][pry-git] to teach the console about git. Diffs, blames, and
-  commits on methods and classes, not just files.
 * [**Pry Remote**][pry-remote] to connect remotely to a Pry console.
 * [**Pry Byebug**][pry-byebug] to turn the console into a simple debugger.
 * [**Pry Stack Explorer**][pry-stack_explorer] to navigate the call stack and
   frames.
-* [**Coolline**][coolline] and [**Coderay**][coderay] for syntax highlighting as
+* [**Coolline**][pry-coolline] and [**Coderay**][coderay] for syntax highlighting as
   you type. _Optional. MRI 1.9.3/2.0.0 only_
 
 ## Dependencies
@@ -74,7 +70,7 @@ mixed encodings.
 
 ### Syntax highlighting
 
-Syntax highlighting as you type via [Coolline][coolline] and [Coderay][coderay]
+Syntax highlighting as you type via [Coolline][pry-coolline] and [Coderay][coderay]
 is disabled by default due to slightly buggy behavior. To enable, add
 `JazzHands.enable_syntax_highlighting_as_you_type!` to the initializer. Only
 works with MRI 2.0.0.
@@ -90,12 +86,10 @@ file an [issue][issues]. [Project changelog][changelog].
 [awesome_print]:      https://github.com/michaeldv/awesome_print
 [hirb]:               https://github.com/cldwalker/hirb
 [pry-rails]:          https://github.com/rweng/pry-rails
-[pry-doc]:            https://github.com/pry/pry-doc
-[pry-git]:            https://github.com/pry/pry-git
 [pry-remote]:         https://github.com/Mon-Ouie/pry-remote
 [pry-byebug]:         https://github.com/deivid-rodriguez/pry-byebug
 [pry-stack_explorer]: https://github.com/pry/pry-stack_explorer
-[coolline]:           https://github.com/Mon-Ouie/coolline
+[pry-coolline]:       https://github.com/pry/pry-coolline
 [coderay]:            https://github.com/rubychan/coderay
 [rb-readline]:        https://github.com/luislavena/rb-readline
 [pullrequests]:       https://github.com/nixme/jazz_hands/pulls
