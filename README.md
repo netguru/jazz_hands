@@ -1,4 +1,4 @@
-Jazz Hands [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/nixme/jazz_hands/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+Jazz Hands
 ==========
 
 Spending hours in the rails console? Spruce it up and show off those
@@ -92,6 +92,6 @@ file an [issue][issues]. [Project changelog][changelog].
 [pry-coolline]:       https://github.com/pry/pry-coolline
 [coderay]:            https://github.com/rubychan/coderay
 [rb-readline]:        https://github.com/luislavena/rb-readline
-[pullrequests]:       https://github.com/nixme/jazz_hands/pulls
-[issues]:             https://github.com/nixme/jazz_hands/issues
-[changelog]:          https://github.com/nixme/jazz_hands/blob/master/CHANGELOG.md
+[pullrequests]:       https://github.com/netguru/jazz_hands/pulls
+[issues]:             https://github.com/netguru/jazz_hands/issues
+[changelog]:          https://github.com/netguru/jazz_hands/blob/master/CHANGELOG.md
